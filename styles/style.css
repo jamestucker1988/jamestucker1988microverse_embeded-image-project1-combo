@@ -198,3 +198,8 @@ a {
 .recommended-videos {
     display: inline-block;
 }
+
+.rec-vid-text {
+    position: relative;
+    top: -4rem;
+}
