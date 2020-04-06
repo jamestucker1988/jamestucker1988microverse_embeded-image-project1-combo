@@ -227,3 +227,7 @@ footer {
     right: 0;
     bottom: 0;
 }
+
+.footer-container-1 {
+    display: inline-block;
+}
