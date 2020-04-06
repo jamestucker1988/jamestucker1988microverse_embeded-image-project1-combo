@@ -235,3 +235,9 @@ footer {
 #youtube-logo-footer {
     margin-top: 1rem;
 }
+
+.footer-buttons {
+    padding: 0.3rem;
+    background-color: rgb(219, 211, 211);
+    border: none;
+}
