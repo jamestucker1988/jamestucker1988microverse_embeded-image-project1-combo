@@ -194,3 +194,7 @@ a {
     left: 15rem;
     top: -3rem;
 }
+
+.recommended-videos {
+    display: inline-block;
+}
