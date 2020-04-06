@@ -247,3 +247,9 @@ footer {
     height: -0.5rem;
     color: grey;
 }
+
+.footer-links-top {
+    font-size: 1rem;
+    color: rgb(104, 102, 102);
+    font-weight: bold;
+}
