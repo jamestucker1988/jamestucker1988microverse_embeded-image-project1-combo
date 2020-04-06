@@ -207,3 +207,8 @@ a {
 .recommended-videos-text {
     display: block;
 }
+
+.user-names,
+.recommendedvideos-views {
+    color: grey;
+}
