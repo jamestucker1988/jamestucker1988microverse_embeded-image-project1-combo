@@ -241,3 +241,9 @@ footer {
     background-color: rgb(219, 211, 211);
     border: none;
 }
+
+.history-and-help-icons {
+    width: 1rem;
+    height: -0.5rem;
+    color: grey;
+}
