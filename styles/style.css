@@ -52,3 +52,14 @@ a {
     padding: 0.7rem;
     font-weight: bold;
 }
+
+.main-containers {
+    display: inline-block;
+}
+
+#main-container-1 {
+    position: relative;
+    top: -122rem;
+    left: 3rem;
+    margin-left: -0.5rem;
+}
