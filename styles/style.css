@@ -203,3 +203,7 @@ a {
     position: relative;
     top: -4rem;
 }
+
+.recommended-videos-text {
+    display: block;
+}
