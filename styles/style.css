@@ -188,3 +188,9 @@ a {
     color: grey;
     font-size: 2rem;
 }
+
+#autoplay {
+    position: relative;
+    left: 15rem;
+    top: -3rem;
+}
