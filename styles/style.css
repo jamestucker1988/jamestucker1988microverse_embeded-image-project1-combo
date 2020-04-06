@@ -175,3 +175,7 @@ a {
     /* border-left: 0.1rem solid rgb(240, 233, 233);  */
     /* border: 0.05rem solid rgb(240, 233, 233); */
 }
+
+#uploadtext-and-autoplayimage {
+    display: inline-block;
+}
