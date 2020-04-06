@@ -117,3 +117,9 @@ a {
 #youtubername-and-views {
     border-bottom: 0.2rem solid rgb(240, 233, 233);
 }
+
+.videoinfo-container-buttons {
+    display: inline-block;
+    outline: none; 
+    background-color: rgb(240, 233, 233);
+}
