@@ -120,6 +120,11 @@ a {
 
 .videoinfo-container-buttons {
     display: inline-block;
-    outline: none; 
+    outline: none;
     background-color: rgb(240, 233, 233);
+}
+
+#right-video-buttons {
+    position: relative;
+    right: -28rem;
 }
