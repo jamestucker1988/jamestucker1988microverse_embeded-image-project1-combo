@@ -217,3 +217,13 @@ a {
 .user-names {
     font-size: 0.8rem;
 }
+
+footer {
+    background-color: rgb(236, 230, 230);
+    padding: 20px; 
+    /* width: 100%; */
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
