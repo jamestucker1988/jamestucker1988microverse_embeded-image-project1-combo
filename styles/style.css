@@ -167,3 +167,11 @@ a {
     top: 1rem;
     right: 3rem;
 }
+
+#main-container-2 {
+    margin-left: 5rem;
+    background-color: white;
+    /* border-bottom: 1rem solid rgb(240, 233, 233); */
+    /* border-left: 0.1rem solid rgb(240, 233, 233);  */
+    /* border: 0.05rem solid rgb(240, 233, 233); */
+}
