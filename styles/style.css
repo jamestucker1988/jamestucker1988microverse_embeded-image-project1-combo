@@ -133,3 +133,10 @@ a {
     color: black;
     display: block;
 }
+
+#showmore-1 {
+    color: rgb(187, 180, 180);
+    text-align: center;
+    border-top: 0.05rem solid rgb(240, 233, 233);
+    padding-top: 0.6rem;
+}
