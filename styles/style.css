@@ -113,3 +113,7 @@ a {
     right: -30rem;
     border-bottom: 0.15rem solid rgb(27, 138, 212);
 }
+
+#youtubername-and-views {
+    border-bottom: 0.2rem solid rgb(240, 233, 233);
+}
