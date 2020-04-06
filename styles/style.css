@@ -253,3 +253,7 @@ footer {
     color: rgb(104, 102, 102);
     font-weight: bold;
 }
+
+.footer-links-bottom {
+    color: rgb(161, 160, 160);
+}
