@@ -107,3 +107,9 @@ a {
     padding: 0.4rem;
     margin-left: -0.3rem;
 }
+
+#number-of-views {
+    position: relative;
+    right: -30rem;
+    border-bottom: 0.15rem solid rgb(27, 138, 212);
+}
