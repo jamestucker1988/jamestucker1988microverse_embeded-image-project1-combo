@@ -231,3 +231,7 @@ footer {
 .footer-container-1 {
     display: inline-block;
 }
+
+#youtube-logo-footer {
+    margin-top: 1rem;
+}
