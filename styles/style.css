@@ -128,3 +128,8 @@ a {
     position: relative;
     right: -28rem;
 }
+
+.video-info {
+    color: black;
+    display: block;
+}
