@@ -208,7 +208,12 @@ a {
     display: block;
 }
 
+
 .user-names,
 .recommendedvideos-views {
     color: grey;
+}
+
+.user-names {
+    font-size: 0.8rem;
 }
