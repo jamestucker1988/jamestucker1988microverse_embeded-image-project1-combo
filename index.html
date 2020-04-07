@@ -118,21 +118,21 @@
             </section>
 
             <!--Number of comments and sort by icon-->
-            <section>
+            <div>
                 <p id="number-of-comments">15 Comments</p>
-            </section>
+            </div>
 
             <!--Commenter avatar and textbox for writing a comment-->
-            <section id="numberofcomments-and-postingacomment">
-                <form action="" method="get" name="form-2">
+            <div id="numberofcomments-and-postingacomment">
+                <form action="/submit" method="get" name="form-2">
                     <img src="images/user-avatar.PNG" alt="User's avatar" id="user-avatar" width="25" height="25" />
                     <textarea placeholder="Add a public comment..." rows="3" cols="100"></textarea>
                     <input type="button" name="post-comment-button" value="Post" id="post-comment-button" />
                 </form>
-            </section>
+            </div>
 
             <!--Comments section which shows that it is loading-->
-            <section class="videotitle-and-info">
+            <div class="videotitle-and-info">
 
                 <!--Loading comments section; code is from the source page: http://archive.vn/Bss88-->
                 <div style="font-size:100%;background-color: transparent; text-align:center;line-height:20px;white-space:nowrap;border-width: 0px; border-style: none; margin: 0px; padding: 1em; border-color: white; ">
@@ -142,7 +142,7 @@
                         Loading...
                     </span>
                 </div>
-            </section>
+            </div>
         </div>
 
         <!--Main container 2-->
@@ -155,9 +155,9 @@
                     <img src="images/autoplay-button.PNG" class="upload-and-autoplay" id="autoplay" alt="Autoplay image" width="250" height="40" />
                 </div>
 
-                <!----------------Recommended videos---------------->
 
-                <!--Recommended video 1-->
+
+
                 <div>
                     <img src="images/thumbnail-1.PNG" alt="Thumbnail 1" class="recommended-videos" width="240" height="150" />
 
@@ -236,7 +236,7 @@
 
                 <!--Recommended video 8-->
                 <div>
-                    <img src="images/thumbnail-8.PNG" alt="Thumbnail 8" class="recommended-videos" class="recommended-videos" width="240" height="150" />
+                    <img src="images/thumbnail-8.PNG" alt="Thumbnail 8" class="recommended-videos" width="240" height="150" />
 
                     <div class="recommended-videos rec-vid-text">
                         <h4 class="recommendedvideos-text video-titles">Running an SQL Injection Attack - Computerphile</h4>
@@ -375,7 +375,7 @@
     <footer>
         <div>
             <img src="images/youtube-logo.PNG" alt="youtube-logo" class="footer-container-1" id="youtube-logo-footer" width="130" height="50" />
-            <form action="" method="get" name="form-3" class="footer-container-1">
+            <form action="/submit" method="get" name="form-3" class="footer-container-1">
                 <select class="footer-buttons">
                     <i class="material-icons"></i>
                     <option value="English">English</option>
