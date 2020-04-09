@@ -1,305 +1,336 @@
 :root {
     font-size: 1rem;
-}
-
-@media screen(min-width:800px) {
-    :root {
-        font-size: 0.7rem;
-    }
+    box-sizing: border-box;
 }
 
 html {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100;
+    background-color: white;
 }
 
-body {
+: body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     position: relative;
-    padding-bottom: 90px;
-    /*put the height/width of the footer (see this value in the web browser's Dev tools) in pixels as its value*/
-    min-height: 100vh;
-    /*vh (viewport height as unit of measure))*/
+    padding-bottom: 10px;
 }
 
 a {
     text-decoration: none;
 }
 
-#navigation-bar {
+.nav1 {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin-bottom: 3rem;
+    top: 0;
+    position: sticky;
+    background-color: grey;
+}
+
+#container-1-1 {
+    padding-left: 0rem;
     margin-top: 0.5rem;
-
-    max-width: min-max(800px, 100%);
-
 }
 
 #search-bar {
+    padding-top: 0.59rem;
+    color: lightgrey;
+    font-size: 1rem;
+}
 
-    width: 85%;
-
-
+#search-icon {
+    color: rgb(173, 166, 166);
 }
 
 #search-button {
-    /*    position: relative;*/
-    /*    top: 0.4rem;*/
-    /*    left: -0.25rem;*/
-    /*    padding: 0.3rem 0.4rem;*/
-    background-color: lightgrey;
-    margin-top: inherit;
-}
-
-.search-club {
-    border-collapse: collapse;
-    height: 70%;
-    display: inline-flex;
-    align-self: center;
-    border-width: thin;
-    top: inherit;
-}
-
-/*
-#search-icon {
     color: grey;
-
+    background-color: rgb(248, 244, 244);
+    box-shadow: none;
+    height: 2rem;
+    border: 1px solid grey;
+    margin-left: -5rem;
 }
-*/
+
+.search {
+    margin-right: 50px;
+}
+
+#search-and-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#container-1-3 {
+    display: flex;
+    padding: 0.2rem;
+}
 
 #upload-icon {
-    position: relative;
-    top: 0.5rem;
+    color: grey;
+    margin-top: 0.6rem;
+    align-self: baseline;
+    padding-right: 0.5rem;
 }
 
-#sign-in-button {
+#sign-in {
+    border: 2px solid rgb(12, 124, 189);
+    background-color: rgb(12, 124, 189);
+    padding: 0.5rem;
     color: white;
-    background-color: rgb(27, 138, 212);
-    padding: 0.7rem;
+    font-size: 1rem;
     font-weight: bold;
-    position: relative;
+}
+
+.textadjust1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    opacity: 0.4;
+}
+
+#side-header {
+    object-fit: cover;
 }
 
 .main-containers {
     display: grid;
-    grid-template-columns: 3fr 200px 1fr;
-    grid-auto-flow: column;
-    grid-auto-columns: 200px;
-    grid-template-areas: "a b c";
+    grid-template-columns: 1.2fr 0.4fr;
+    grid-template-rows: 1fr 7rem;
 }
 
-#main-container-1 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    grid-area: a;
+.side-containers {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 2rem 10rem;
+    grid-auto-rows: 10rem;
+    grid-gap: 0.5rem;
+    width: auto;
+    border-bottom: 1px solid grey;
 }
 
-#main-container-2 {
-    grid-area: c;
-    align-self: flex-start;
-    padding-top: 2rem;
-}
-
-.side-bar-image-1st-column {
-    grid-area: b;
-}
-
-
-
-#video {
-    margin-left: 7%;
-}
-
-.videotitle-and-info {
-    border-top: 1rem solid rgb(240, 233, 233);
-    border-right: 1rem solid rgb(240, 233, 233);
-    border-bottom: 1rem solid rgb(240, 233, 233);
-    border-left: 0.5rem solid rgb(240, 233, 233);
-    align-self: center;
-    overflow-x: scroll;
-
-}
-
-.youtubername-and-views,
-.youtuberavatar-and-subscribebutton {
-    display: inline-block;
-}
-
-#youtuber-avatar {
-    margin-bottom: 3rem;
-}
-
-#youtubername-and-subscribebutton {
-    position: relative;
-    top: -2.3rem;
-}
-
-#youtuber-name {
-    font-weight: bold;
-}
-
-.subscribebutton-and-number {
-    display: inline;
-}
-
-#subscribe-button {
-    background-color: red;
-    color: white;
-    border: 0.1rem solid red;
-    padding: 0.4rem;
-}
-
-#number-of-subscribers {
-    border: 0.1rem solid rgb(240, 233, 233);
-    padding: 0.4rem;
-    margin-left: -0.3rem;
-}
-
-#number-of-views {
-    position: relative;
-    right: -30rem;
-    border-bottom: 0.15rem solid rgb(27, 138, 212);
-}
-
-#youtubername-and-views {
-    border-bottom: 0.2rem solid rgb(240, 233, 233);
-}
-
-.videoinfo-container-buttons {
-    display: inline-block;
-    outline: none;
-    background-color: rgb(240, 233, 233);
-}
-
-#right-video-buttons {
-    position: relative;
-    right: -28rem;
-}
-
-.video-info {
+.content-info {
     color: black;
     display: block;
 }
 
-#showmore-1 {
-    color: rgb(187, 180, 180);
-    text-align: center;
-    border-top: 0.05rem solid rgb(240, 233, 233);
-    padding-top: 0.6rem;
+.underline1 {
+    border-bottom: 2px solid grey;
+    border-collapse: collapse;
 }
 
-#number-of-comments {
-    color: rgb(187, 180, 180);
-    font-size: 1.2rem;
-    border-right: 1rem solid rgb(240, 233, 233);
-    border-left: 0.2rem solid rgb(240, 233, 233);
-    margin-bottom: 0;
-    margin-top: 0;
+/*
+#underline1 {
+  border-bottom: 2px solid grey;
+    margin-bottom: 0.56rem;
 }
-
-#user-avatar {
-    margin-bottom: 1rem;
-}
-
-#numberofcomments-and-postingacomment {
-    padding: 2rem;
-    background-color: white;
-    border-right: 1rem solid rgb(240, 233, 233);
-    /* border-bottom: 1rem solid rgb(240, 233, 233);*/
-    border-left: 0.2rem solid rgb(240, 233, 233);
-}
-
-#post-comment-button {
-    position: relative;
-    top: 1rem;
-    right: 3rem;
-}
-
-#main-container-2 {
+*/
+# upload-side-container-text {
     margin-left: 5rem;
-    background-color: white;
-    /* border-bottom: 1rem solid rgb(240, 233, 233); */
-    /* border-left: 0.1rem solid rgb(240, 233, 233);  */
-    /* border: 0.05rem solid rgb(240, 233, 233); */
+    display: flex;
+    align-self: center;
 }
 
-#uploadtext-and-autoplayimage {
-    display: inline-block;
+#display {
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 3rem;
+    padding-right: 0.5rem;
 }
 
-.upload-and-autoplay {
-    display: inline-block;
+#h3 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
-#up-next {
-    color: grey;
-    font-size: 2rem;
+.video-info-container {
+    box-sizing: content-box;
+    padding-right: 23rem;
+    border-bottom: 0.5px solid black;
 }
 
-#autoplay {
+.youtuber-info {
+    display: flex;
     position: relative;
-    left: 15rem;
-    top: 1.4rem;
+    align-self: space-evenly;
 }
 
-.recommended-videos {
-    display: inline-block;
+#views {
+    display: inline;
+    position: absolute;
+    margin-top: -2rem;
+    margin-left: 50rem;
+    float: right;
+    font-weight: 400;
+    font-size: 1.1rem;
+    border-bottom: 1.5px solid blue;
 }
 
-.user-names,
-.recommendedvideos-views {
+#subscribe {
+    font-size: 0.8rem;
+    background-color: rgb(243, 14, 14);
+    border: 1px solid rgb(243, 14, 14);
+    padding: 0.5rem;
+    font-weight: bold;
+    margin-top: 0.2rem;
+}
+
+#subscribers {
+    padding-top: 0.35rem;
+    padding-bottom: 0.5rem;
+}
+
+/*for subscribe button*/
+button ~ span {
+    border: 1.1px solid grey;
+    opacity: 0.7;
+    padding: 0.5rem 0.7rem 0.62rem 0.5rem;
+    margin-top: -1.5rem;
+}
+
+.expression {
+    width: 50rem;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#exp-number {
+    margin-left: 48.5rem;
+    position: absolute;
+}
+
+.number-of-comments-section {
+    margin-left: -0.4rem;
+}
+
+.share-save-like-dislike {
+    padding-top: 0.4rem;
+    */
+}
+
+.material-icons {
+    margin-top: 0.1rem;
+    /*    padding-top: 0.3rem;*/
+}
+
+.btn {
+    display: inline-flex;
+}
+
+#loading-comments {
+    margin-left: 50%;
+    margin-top: 20%;
+}
+
+#show-more {
     color: grey;
 }
 
-.user-names {
-    font-size: 0.8rem;
+.number-of-comments-section {
+    display: inline-block;
+}
+
+#loading-comments > div {
+    margin-left: 1rem;
+    display: flex;
+    flex-shrink: 5;
+}
+
+#text-avtar-image {
+    margin-right: 0.1rem;
+    position: relative;
+    margin-bottom: 3.5rem;
+    display: inline;
 }
 
 footer {
-    background-color: rgb(236, 230, 230);
+    background-color: white;
     padding: 20px;
-    /* width: 100%; */
     position: absolute;
     left: 0;
     right: 0;
     bottom: 0;
-}
-
-.footer-container-1 {
-    display: inline-block;
-}
-
-#youtube-logo-footer {
-    margin-top: 1rem;
+    border: 1px solid rgb(236, 234, 234);
 }
 
 .footer-buttons {
-    padding: 0.3rem;
-    background-color: rgb(219, 211, 211);
+    display: inline-block;
+    border: 1px solid grey;
+    padding: 3px;
+    background-color: lightgrey;
+}
+
+select {
+    background-color: lightgrey;
+    padding-right: 5px;
+}
+
+.footer-forms {
     border: none;
 }
 
-.history-and-help-icons {
-    width: 1rem;
-    height: -0.5rem;
+/*.bottom-links-1*/
+#footer-link + a {
+    color: black;
+}
+
+.bottom-links-2 {
     color: grey;
+    font-size: 10px;
 }
 
-.footer-links-top {
-    font-size: 1rem;
-    color: rgb(104, 102, 102);
+#choose-language-image {
+    object-fit: cover;
+}
+
+#youtube-logo {
+    align-self: center;
+}
+
+#footer-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-top: 1px solid lightgrey;
     font-weight: bold;
+    margin-top: 10px;
 }
 
-.footer-links-bottom {
-    color: rgb(161, 160, 160);
+.footer1 {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+#footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 1.8rem;
+    padding-right: 75rem;
+    padding-left: -10rem;
+}
+
+#footer-links {
+    display: block;
+}
+
+.bottom-links-1 {
+    display: inline block;
+    margin-left: 0.5rem;
+}
+
+.bottom-links-2 {
+    display: inline;
+    margin-left: 0.5rem;
 }
 
 /* http: //meyerweb.com/eric/tools/css/reset/ 
@@ -309,11 +340,20 @@ body,
 div,
 span,
 iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
 a,
 aside,
 footer,
+header,
 nav,
-section {
+section,
+video {
     margin: 0;
     padding: 0;
     border: 0;
@@ -323,8 +363,10 @@ section {
 }
 
 /* HTML5 display-role reset for older browsers */
+article,
 aside,
 footer,
+header,
 nav,
 section {
     display: block;
