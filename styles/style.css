@@ -1,3 +1,13 @@
+:root {
+    font-size: 1rem;
+}
+
+@media screen(min-width:800px) {
+    :root {
+        font-size: 0.7rem;
+    }
+}
+
 html {
     margin: 0;
     padding: 0;
@@ -23,27 +33,45 @@ a {
 #navigation-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 3rem;
+    margin-top: 0.5rem;
+
+    max-width: min-max(800px, 100%);
+
 }
 
 #search-bar {
-    padding: 0.5rem;
+
+    width: 85%;
+
+
 }
 
 #search-button {
-    position: relative;
-    top: 0.4rem;
-    left: -0.25rem;
-    padding: 0.3rem 0.4rem;
+    /*    position: relative;*/
+    /*    top: 0.4rem;*/
+    /*    left: -0.25rem;*/
+    /*    padding: 0.3rem 0.4rem;*/
     background-color: lightgrey;
-    box-shadow: none;
-    border: none;
+    margin-top: inherit;
 }
 
+.search-club {
+    border-collapse: collapse;
+    height: 70%;
+    display: inline-flex;
+    align-self: center;
+    border-width: thin;
+    top: inherit;
+}
+
+/*
 #search-icon {
     color: grey;
+
 }
+*/
 
 #upload-icon {
     position: relative;
@@ -55,17 +83,30 @@ a {
     background-color: rgb(27, 138, 212);
     padding: 0.7rem;
     font-weight: bold;
+    position: relative;
 }
 
 .main-containers {
-    display: inline-block;
+    display: grid;
+    grid-template-columns: minmax(400px, 4fr) minmax(200px, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 200px;
+    grid-template-areas: "a b";
 }
 
 #main-container-1 {
-    position: relative;
-    top: -122rem;
-    left: 3rem;
-    margin-left: -0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    grid-area: a;
+}
+
+#main-container-2 {
+    grid-area: b;
+}
+
+#video {
+    margin-left: 7%;
 }
 
 .videotitle-and-info {
@@ -73,6 +114,9 @@ a {
     border-right: 1rem solid rgb(240, 233, 233);
     border-bottom: 1rem solid rgb(240, 233, 233);
     border-left: 0.5rem solid rgb(240, 233, 233);
+    align-self: center;
+    overflow-x: scroll;
+
 }
 
 .youtubername-and-views,
@@ -210,7 +254,6 @@ a {
     display: block;
 }
 
-
 .user-names,
 .recommendedvideos-views {
     color: grey;
@@ -222,7 +265,7 @@ a {
 
 footer {
     background-color: rgb(236, 230, 230);
-    padding: 20px; 
+    padding: 20px;
     /* width: 100%; */
     position: absolute;
     left: 0;
