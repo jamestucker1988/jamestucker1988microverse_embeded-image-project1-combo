@@ -12,7 +12,7 @@ html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    width: 100%;
+    /* width: 100%; */
     height: 100;
 }
 
@@ -24,6 +24,7 @@ body {
     /*put the height/width of the footer (see this value in the web browser's Dev tools) in pixels as its value*/
     min-height: 100vh;
     /*vh (viewport height as unit of measure))*/
+    overflow-x: hidden; /*fixes the horizontal scroll on web browser*/
 }
 
 a {
@@ -36,7 +37,6 @@ a {
     justify-content: space-around;
     margin-bottom: 3rem;
     margin-top: 0.5rem;
-
     max-width: min-max(800px, 100%);
 
 }
@@ -107,7 +107,8 @@ a {
 }
 
 #video {
-    margin-left: 0;
+    margin-left: 1rem;
+    background-size: contain;
 }
 
 .videotitle-and-info {
@@ -222,9 +223,7 @@ a {
 #main-container-2 {
     margin-left: 5rem;
     background-color: white;
-    /* border-bottom: 1rem solid rgb(240, 233, 233); */
-    /* border-left: 0.1rem solid rgb(240, 233, 233);  */
-    /* border: 0.05rem solid rgb(240, 233, 233); */
+
 }
 
 #uploadtext-and-autoplayimage {
