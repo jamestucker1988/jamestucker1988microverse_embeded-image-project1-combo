@@ -9,15 +9,18 @@ html {
     background-color: white;
 }
 
-body {
+: body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: white;
     position: relative;
     padding-bottom: 10px;
-    overflow-x: hidden;
+
+    position: relative;
 }
 
 a {
+
+
     text-decoration: none;
 }
 
@@ -34,6 +37,8 @@ a {
     padding-left: 0rem;
     margin-top: 0.5rem;
 }
+
+
 
 #search-bar {
     padding-top: 0.59rem;
@@ -60,6 +65,7 @@ a {
 
 #search-and-button {
     display: flex;
+
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -90,6 +96,7 @@ a {
     flex-direction: column;
     align-items: flex-start;
     opacity: 0.4;
+    border: 1px solid green;
 }
 
 #side-header {
@@ -100,6 +107,8 @@ a {
     display: grid;
     grid-template-columns: 1.2fr 0.4fr;
     grid-template-rows: 1fr 7rem;
+    grid-gap: 0.5rem;
+    border: 1px solid blue;
 }
 
 .side-containers {
@@ -122,7 +131,7 @@ a {
     border-collapse: collapse;
 }
 
-#upload-side-container-text {
+# upload-side-container-text {
     margin-left: 5rem;
     display: flex;
     align-self: center;
@@ -133,6 +142,7 @@ a {
     justify-content: space-evenly;
     padding-left: 3rem;
     padding-right: 0.5rem;
+    border: 1px solid red;
 }
 
 #h3 {
@@ -142,6 +152,7 @@ a {
     padding-bottom: 2rem;
     font-size: 1.5rem;
     font-weight: 400;
+    border: 2px solid navy;
 }
 
 .video-info-container {
@@ -154,6 +165,11 @@ a {
     display: flex;
     position: relative;
     align-self: space-evenly;
+    border: 2px solid yellow;
+}
+
+img[src="images/download.jpeg"] {
+    margin-bottom: 2.5rem;
 }
 
 #views {
@@ -165,6 +181,7 @@ a {
     font-weight: 400;
     font-size: 1.1rem;
     border-bottom: 1.5px solid blue;
+    border: 1px dotted yellow;
 }
 
 #subscribe {
@@ -173,12 +190,13 @@ a {
     border: 1px solid rgb(243, 14, 14);
     padding: 0.5rem;
     font-weight: bold;
-    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
 }
 
 #subscribers {
     padding-top: 0.35rem;
     padding-bottom: 0.5rem;
+    border-collapse: collapse;
 }
 
 /*for subscribe button*/
@@ -212,6 +230,7 @@ button ~ span {
 
 .material-icons {
     margin-top: 0.1rem;
+    /*    padding-top: 0.3rem;*/
 }
 
 .btn {
@@ -227,15 +246,14 @@ button ~ span {
     color: grey;
 }
 
-.number-of-comments-section {
-    display: inline-block;
+.enclosed-brackets {
+    outline: 1rem ridge violet;
+    border-radius: 2rem;
+    width: auto;
+    height: auto;
 }
 
-#loading-comments > div {
-    margin-left: 1rem;
-    display: flex;
-    flex-shrink: 5;
-}
+
 
 #text-avtar-image {
     margin-right: 0.1rem;
@@ -246,8 +264,8 @@ button ~ span {
 
 footer {
     background-color: white;
-    padding: 20px;
-    position: absolute;
+    /*    padding: 20px;*/
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
@@ -301,6 +319,7 @@ select {
     display: flex;
     flex-direction: column;
     align-items: stretch;
+    display: 1px solid orange;
 }
 
 #footer-top {
@@ -310,6 +329,7 @@ select {
     height: 1.8rem;
     padding-right: 75rem;
     padding-left: -10rem;
+    border: 1px solid black;
 }
 
 #footer-links {
