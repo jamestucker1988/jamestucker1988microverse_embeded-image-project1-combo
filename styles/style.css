@@ -16,11 +16,10 @@ body {
     padding-bottom: 10px;
     overflow-x: hidden;
     position: relative;
+    width: 1600px;
 }
 
 a {
-
-
     text-decoration: none;
 }
 
@@ -37,8 +36,6 @@ a {
     padding-left: 0rem;
     margin-top: 0.5rem;
 }
-
-
 
 #search-bar {
     padding-top: 0.59rem;
@@ -65,7 +62,6 @@ a {
 
 #search-and-button {
     display: flex;
-
     flex-direction: row;
     justify-content: flex-end;
 }
@@ -105,14 +101,20 @@ a {
 
 .main-containers {
     display: grid;
-    grid-template-columns: 700px 0.4fr;
-    grid-template-rows: 1fr 7rem;
+    grid-template-columns: 4fr 1fr;
+    grid-template-rows: 1fr 2rem;
     grid-gap: 0.5rem;
     border: 1px solid blue;
     margin-left: 0.5rem;
 }
 
+.first-column {
+    padding-left: 15%;
+    padding-right: 10%;
+}
+
 .side-containers {
+    padding-left: 0;
     display: grid;
     grid-template-columns: 250px 250px;
     grid-template-rows: 2rem 10rem;
@@ -136,14 +138,6 @@ a {
     margin-left: 5rem;
     display: flex;
     align-self: center;
-}
-
-#display {
-    display: flex;
-    justify-content: space-evenly;
-    padding-left: 3rem;
-    padding-right: 0.5rem;
-    border: 1px solid red;
 }
 
 #h3 {
@@ -201,7 +195,6 @@ img[src="images/download.jpeg"] {
     border-collapse: collapse;
 }
 
-/*for subscribe button*/
 button ~ span {
     border: 1.1px solid grey;
     opacity: 0.7;
@@ -232,7 +225,6 @@ button ~ span {
 
 .material-icons {
     margin-top: 0.1rem;
-
 }
 
 .btn {
@@ -248,13 +240,6 @@ button ~ span {
     color: grey;
 }
 
-.enclosed-brackets {
-    outline: 1rem ridge violet;
-    border-radius: 2rem;
-    width: auto;
-    height: auto;
-}
-
 
 
 #text-avtar-image {
@@ -266,7 +251,6 @@ button ~ span {
 
 footer {
     background-color: white;
-    /*    padding: 20px;*/
     position: relative;
     left: 0;
     right: 0;
@@ -275,7 +259,7 @@ footer {
 }
 
 .footer-buttons {
-    display: inline-block;
+    display: inline-flex;
     border: 1px solid grey;
     padding: 3px;
     background-color: lightgrey;
@@ -289,7 +273,6 @@ select {
 .footer-forms {
     border: none;
 }
-
 
 #footer-link + a {
     color: black;
@@ -327,10 +310,9 @@ select {
 #footer-top {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: flex-end;
     height: 1.8rem;
-    padding-right: 75rem;
-    padding-left: -10rem;
+    padding-right: 60rem;
     border: 1px solid black;
 }
 
