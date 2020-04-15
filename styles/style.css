@@ -191,6 +191,7 @@ img[src="images/download.jpeg"] {
     padding: 0.5rem;
     font-weight: bold;
     margin-bottom: 0.5rem;
+    border-collapse: collapse;
 }
 
 #subscribers {
@@ -230,7 +231,7 @@ button ~ span {
 
 .material-icons {
     margin-top: 0.1rem;
-    /*    padding-top: 0.3rem;*/
+
 }
 
 .btn {
@@ -288,7 +289,7 @@ select {
     border: none;
 }
 
-/*.bottom-links-1*/
+
 #footer-link + a {
     color: black;
 }
