@@ -185,10 +185,9 @@ iframe {
     display: inline;
     position: relative;
     margin-top: -2rem;
-    /* border-color: blue; */
+
     width: auto;
-    /* border-bottom-width: 2px;
-    border-style: solid; */
+
     margin-left: 5rem;
     padding-left: 82%;
     font-weight: 400;
@@ -199,7 +198,7 @@ iframe {
 #views::after {
     content: "";
     display: block;
-    border-bottom: 0.2rem solid blue; 
+    border-bottom: 0.2rem solid blue;
     width: 14%;
     float: right;
     position: relative;
