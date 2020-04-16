@@ -121,10 +121,11 @@ iframe {
     padding-left: 0;
     display: grid;
     grid-template-columns: 250px 250px;
-    grid-template-rows: 2rem repeat(22, 10rem) 2rem;
-    grid-auto-rows: 10rem;
+    grid-template-rows: 2rem repeat(20, 10rem) 2rem;
+    /*    grid-auto-rows: 10rem;*/
     grid-gap: 0.5rem;
-    width: auto;
+    grid-auto-flow: row;
+    /*    width: auto;*/
 }
 
 .content-info {
@@ -286,15 +287,15 @@ button ~ span {
 }
 
 .show-more-2 {
-    /* grid-area: 1/-2/3/-1; */
+    grid-area: 22/1/23/3;
     color: lightgrey;
-    /* align-self: center; */
+    padding-left: 42%;
     border-top: 0.1rem solid lightgray;
 }
 
 /* .show-more-2 { */
-    /* border-top: 1px solid grey; */
- /*    text-align: center;
+/* border-top: 1px solid grey; */
+/*    text-align: center;
     color: lightgray;
     font-size: 1rem;
     border: 2rem solid red;
