@@ -196,12 +196,14 @@ iframe {
     border-collapse: collapse;
 }
 
-#views:after {
+#views::after {
     content: "";
     display: block;
     border-bottom: 0.2rem solid blue; 
     width: 14%;
     float: right;
+    position: relative;
+    top: 1rem;
 }
 
 #subscribe {
