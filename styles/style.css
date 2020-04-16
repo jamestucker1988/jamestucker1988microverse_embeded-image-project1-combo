@@ -139,11 +139,6 @@ iframe {
     margin-left: -1rem;
 }
 
-.underline1 {
-    border-bottom: 2px solid grey;
-    border-collapse: collapse;
-}
-
 #upload-side-container-text {
     margin-left: 5rem;
     display: flex;
@@ -292,14 +287,6 @@ button ~ span {
     padding-left: 42%;
     border-top: 0.1rem solid lightgray;
 }
-
-/* .show-more-2 { */
-/* border-top: 1px solid grey; */
-/*    text-align: center;
-    color: lightgray;
-    font-size: 1rem;
-    border: 2rem solid red;
-} */
 
 footer {
     background-color: white;
