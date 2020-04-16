@@ -113,6 +113,12 @@ a {
     padding-right: 10%;
 }
 
+iframe {
+    border-top: 1rem solid #EEEEEE;
+    border-right: 1rem solid #EEEEEE;
+    border-bottom: 1rem solid #EEEEEE;
+}
+
 .side-containers {
     padding-left: 0;
     display: grid;
@@ -130,6 +136,9 @@ a {
     border: 1rem solid #EEEEEE;
     width: 100%;
     background-color: white;
+    line-height: 2rem;
+    padding: 2rem;
+    margin-left: -1rem;
 }
 
 .underline1 {
@@ -156,6 +165,14 @@ a {
     flex-wrap: wrap;
 
 }*/
+
+.video-info-container {
+    background-color: white;
+    border-top: 1rem solid #EEEEEE;
+    border-right: 1rem solid #EEEEEE;
+    border-bottom: 1rem solid #EEEEEE;
+    padding: 1rem;
+}
 
 #h3 {
 
