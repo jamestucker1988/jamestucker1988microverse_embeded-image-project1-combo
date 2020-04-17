@@ -1,13 +1,18 @@
 :root {
     font-size: 1rem;
-    box-sizing: border-box;
+    ;
+
 }
 
+
 html {
-    margin: 0;
-    padding: 0;
+    margin: auto;
     background-color: white;
+    box-sizing: border-box;
+    max-width: 100%;
 }
+
+
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -16,8 +21,9 @@ body {
     padding-bottom: 10px;
     overflow-x: hidden;
     position: relative;
-    width: 1100px;
+    width: 95%;
     margin: auto;
+    box-sizing: border-box;
 }
 
 a {
@@ -103,10 +109,10 @@ a {
     display: grid;
     grid-template-columns: 4fr 1fr;
     grid-template-rows: 1fr 2rem;
-    grid-auto-rows: min-content;
+
     grid-gap: 0.5rem;
-    margin-left: 0.5rem;
-    padding-right: 0;
+    /*    margin-left: 0.5rem;*/
+    /*    padding-right: 0;*/
     width: auto;
 }
 
@@ -124,14 +130,13 @@ iframe {
 
 .side-containers {
     width: auto;
-    padding-left: 0;
+    /*    padding-left: 0;*/
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2rem repeat(20, 10rem) 2rem;
-    /*    grid-auto-rows: 10rem;*/
     grid-area: 1/2/-1/3;
     grid-gap: 0.5rem;
-    grid-auto-flow: row;
+
     margin: auto;
 }
 
