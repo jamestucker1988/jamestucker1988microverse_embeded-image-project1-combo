@@ -16,8 +16,8 @@ body {
     padding-bottom: 10px;
     overflow-x: hidden;
     position: relative;
-    /* max-width: 1400px; */
-    margin: 0;
+    width: 1500px;
+    margin: auto;
 }
 
 a {
@@ -165,7 +165,6 @@ iframe {
     display: flex;
     position: relative;
     align-self: stretch;
-
 }
 
 #odin-container {
@@ -212,7 +211,6 @@ iframe {
     text-align: center;
     box-sizing: content-box;
     border-collapse: collapse;
-
 }
 
 button ~ span {
@@ -231,7 +229,6 @@ button ~ span {
     border-top: 0.2rem solid #EEEEEE;
     padding-top: 1rem;
 }
-
 
 #more {
     padding-bottom: 0.45rem;
@@ -287,7 +284,7 @@ footer {
     right: 0;
     bottom: 0;
     border: 1px solid rgb(236, 234, 234);
-    padding-top: 2.5rem;
+    /*    padding-top: 2.5rem;*/
 }
 
 .footer-buttons {
@@ -338,21 +335,19 @@ select {
     display: flex;
     flex-direction: column;
     align-items: stretch;
-    display: 1px solid orange;
+    height: auto;
 }
 
 #footer-top {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
-    height: 1.8rem;
-    padding-right: 43.5rem;
-    position: absolute;
-    z-index: 1;
+    justify-content: flex-start;
+    height: 2rem;
 }
 
 #footer-links {
     display: block;
+    padding: 0.5rem;
 }
 
 .bottom-links-1 {
