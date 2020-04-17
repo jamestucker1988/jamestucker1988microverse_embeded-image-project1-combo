@@ -109,12 +109,12 @@ a {
 }
 
 .first-column {
-    padding-left: 15%;
-    padding-right: 10%;
+    padding: auto;
+    width: 100%;
 }
 
 iframe {
-    width: 100%;
+    width: 98.5%;
     border-top: 1rem solid #EEEEEE;
     border-right: 1rem solid #EEEEEE;
     border-bottom: 1rem solid #EEEEEE;
@@ -135,7 +135,6 @@ iframe {
     color: black;
     display: block;
     border: 1rem solid #EEEEEE;
-    width: 100%;
     background-color: white;
     line-height: 2rem;
     padding: 2rem;
@@ -153,8 +152,7 @@ iframe {
     border-top: 1rem solid #EEEEEE;
     border-right: 1rem solid #EEEEEE;
     border-bottom: 1rem solid #EEEEEE;
-    padding: 1rem;
-    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
 }
 
 #h3 {
@@ -178,9 +176,6 @@ iframe {
     display: inline;
     position: relative;
     margin-top: -2rem;
-
-    width: auto;
-
     margin-left: 5rem;
     padding-left: 82%;
     font-weight: 400;
@@ -228,7 +223,6 @@ button ~ span {
 }
 
 .expression {
-    width: 100%;
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
