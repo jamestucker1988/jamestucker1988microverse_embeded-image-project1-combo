@@ -143,11 +143,13 @@ iframe {
 .content-info {
     color: black;
     display: block;
-    border: 1rem solid #EEEEEE;
+    border-top: 1rem solid #EEEEEE;
+    border-right: 1rem solid #EEEEEE;
+    border-bottom: 1rem solid #EEEEEE;
     background-color: white;
     line-height: 2rem;
     padding: 2rem;
-    margin-left: -1rem;
+    margin-left: -0.1rem;
 }
 
 #upload-side-container-text {
@@ -185,7 +187,7 @@ iframe {
     position: relative;
     margin-top: -2rem;
     margin-left: 5rem;
-    padding-left: 75%;
+    padding-left: 65%;
     font-weight: 400;
     font-size: 1.1rem;
     border-collapse: collapse;
@@ -195,11 +197,11 @@ iframe {
     content: "";
     display: block;
     border-bottom: 0.2rem solid blue;
-    width: 14%;
+    width: 25%;
     float: right;
-    position: relative;
-    top: 1rem;
-    right: 2.4rem;
+    position: absolute;
+    top: 2rem;
+    right: 0.04rem;
 }
 
 #subscribe {
@@ -326,7 +328,6 @@ select {
 }
 
 #choose-language-image {
-    /* object-fit: cover; */
     width: 100%;
     border-top: 1.5rem;
     border-top: 1rem solid #EEEEEE;
