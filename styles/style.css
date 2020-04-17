@@ -16,6 +16,8 @@ body {
     padding-bottom: 10px;
     overflow-x: hidden;
     position: relative;
+    /* max-width: 1400px; */
+    margin: 0;
 }
 
 a {
@@ -112,6 +114,7 @@ a {
 }
 
 iframe {
+    width: 100%;
     border-top: 1rem solid #EEEEEE;
     border-right: 1rem solid #EEEEEE;
     border-bottom: 1rem solid #EEEEEE;
@@ -151,7 +154,7 @@ iframe {
     border-right: 1rem solid #EEEEEE;
     border-bottom: 1rem solid #EEEEEE;
     padding: 1rem;
-    width: 1066px;
+    width: 100%;
 }
 
 #h3 {
