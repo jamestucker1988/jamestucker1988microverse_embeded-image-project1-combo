@@ -1,6 +1,6 @@
 :root {
     font-size: 1rem;
-    ;
+
 }
 
 html {
@@ -17,7 +17,7 @@ body {
     padding-bottom: 10px;
     overflow-x: hidden;
     position: relative;
-    width: 90%;
+    width: 80%;
     margin: auto;
     box-sizing: border-box;
 }
