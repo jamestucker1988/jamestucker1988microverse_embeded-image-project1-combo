@@ -167,7 +167,11 @@ iframe {
 }
 
 #views {
-    align-self: flex-end;
+
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;    
+    /* align-self: flex-end; */
     padding-left: 0%;
     margin-top: 2rem;
 }
@@ -200,6 +204,24 @@ span i {
     display: block;
     align-self: flex-start;
     margin-right: 100%;
+}
+
+.no-of-views-and-btn-texts {
+    color: grey;
+    font-size: small;
+}
+
+.btn {
+    width: 5;
+    height: 5;
+    border: none;
+    background-color: white;
+    color: grey;
+}
+
+.btn-icon {
+    width: 1;
+    height: 1;
 }
 
 /*
@@ -287,19 +309,20 @@ button ~ span {
     padding-bottom: 0.45rem;
 }
 */
-.number-of-comments-section {
+
+/* .number-of-comments-section {
     margin-left: -0.4rem;
-}
+} */
 
 .share-save-like-dislike {
     padding-top: 0.4rem;
 }
 
-.material-icons {
+/* .material-icons {
     margin-top: 0.1rem;
-}
+} */
 
-.btn {
+/* .btn {
 
     display: inline-flex;
     color: grey;
@@ -307,7 +330,7 @@ button ~ span {
     background-color: white;
 
     align-self: baseline;
-}
+} */
 
 #loading-comments {
     margin-left: 50%;
