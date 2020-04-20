@@ -160,8 +160,8 @@ iframe {
     color: grey;
 }
 
-#upload-side-container-text {
-    margin-left: 5rem;
+.upload-text {
+    margin-left: 0.8rem;
     display: flex;
     align-self: center;
 }
