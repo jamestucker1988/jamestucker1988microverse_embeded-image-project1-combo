@@ -1,6 +1,5 @@
 :root {
     font-size: 1rem;
-
 }
 
 html {
@@ -151,29 +150,72 @@ iframe {
 }
 
 .video-info-container {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: flex-start;
     background-color: white;
+    /*    align-items: center;*/
+    width: 100%;
+    flex-wrap: wrap;
+    /*
     border-top: 1rem solid #EEEEEE;
     border-right: 1rem solid #EEEEEE;
     border-bottom: 1rem solid #EEEEEE;
     padding: 1rem 3rem 1rem 1rem;
+*/
 }
 
+#views {
+    align-self: flex-end;
+    padding-left: 0%;
+    margin-top: 2rem;
+}
+
+span i {
+    margin-left: 100%;
+    align-self: baseline;
+}
+
+/*
+.x {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: auto;
+}*/
+
+.fas fa-share {
+    padding-right: auto;
+}
+
+
+
 #h3 {
+    /*
     padding: 0.5rem;
     font-weight: 600;
     font-size: 1.3rem;
+*/
+    display: block;
+    align-self: flex-start;
+    margin-right: 100%;
 }
 
+/*
 .youtuber-info {
     display: flex;
     position: relative;
     align-self: stretch;
 }
+*/
 
+/*
 #odin-container {
     margin-left: 0.5rem;
-}
+}*/
 
+/*
 #views {
     display: inline;
     position: relative;
@@ -184,7 +226,8 @@ iframe {
     font-size: 1.1rem;
     border-collapse: collapse;
 }
-
+*/
+/*
 #views::after {
     content: "";
     display: block;
@@ -194,8 +237,9 @@ iframe {
     position: absolute;
     top: 2rem;
     right: 0.04rem;
-}
+}*/
 
+/*
 #subscribe {
     display: inline-flex;
     font-size: 0.8rem;
@@ -207,8 +251,9 @@ iframe {
     text-align: center;
     align-self: flex-end;
     margin-top: 0.5rem;
-}
+}*/
 
+/*
 #subscribers {
     padding-top: 0.37rem;
     padding-bottom: 0.47rem;
@@ -216,14 +261,18 @@ iframe {
     box-sizing: content-box;
     border-collapse: collapse;
 }
+*/
 
+/*
 button ~ span {
     border: 1.1px solid grey;
     opacity: 0.7;
     padding: 0.5rem 0.7rem 0.62rem 0.5rem;
     margin-top: -1.5rem;
 }
+*/
 
+/*
 .expression {
     margin-top: 1rem;
     display: flex;
@@ -232,12 +281,12 @@ button ~ span {
     background-color: white;
     border-top: 0.2rem solid #EEEEEE;
     padding-top: 1rem;
-}
-
+}*/
+/*
 #more {
     padding-bottom: 0.45rem;
 }
-
+*/
 .number-of-comments-section {
     margin-left: -0.4rem;
 }
@@ -251,10 +300,13 @@ button ~ span {
 }
 
 .btn {
+
     display: inline-flex;
     color: grey;
     border: none;
     background-color: white;
+
+    align-self: baseline;
 }
 
 #loading-comments {
