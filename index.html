@@ -5,6 +5,8 @@
     <link href="styles/CSS-Resets.css" type="text/css" rel="stylesheet" />
     <link href="styles/style.css" type="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/528b755bd5.js" crossorigin="anonymous"></script>
     <!--Link in order to use Google icons (Google apps icon) within the HTML file-->
     <meta charset="utf-8" />
     <title>Project 1 - Embedding Images and Video</title>
@@ -16,14 +18,12 @@
             <img src="images/menu-bar-icon.png" alt="menu bar" id="menu-bar" width="40" height="30" />
             <img src="images/youtube-logo.PNG" alt="youtube logo" id="youtube-logo" width="80" height="30" />
         </div>
-
         <form action="/submit" method="get" name="form-1">
             <span id="search-and-button">
                 <input type="search" name="search-bar" placeholder="Search" id="search-bar" size="80" class="search">
                 <button id="search-button" class="search"><i class="material-icons" id="search-icon">search</i></button>
             </span>
         </form>
-
         <div class="container-1" id="container-1-3">
             <i class="material-icons" style="color: grey;">video_call</i>
             <i class="material-icons" style="color: grey;">apps</i>
@@ -31,17 +31,46 @@
             <a href="" id="sign-in">Sign In</a>
         </div>
     </nav>
-
     <!--Choose- language container-->
     <img src="images/choose-language.PNG" alt="Choose Language" id="choose-language-image" height="150" />
-
     <!--Main part with the 1st container: video, comments section etc and 2nd container: recommended videos -->
     <main class="main-containers">
         <section class="first-column">
             <iframe height="400" src="https://www.youtube.com/embed/V74l_zS1x8E" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+
             <div class="video-info-container">
-                <h3 id="h3">Contributing to Open Source Part 1: The Easy Way</h3>
+                <h3>Contributing to Open Source Part 1: The Easy Way</h3>
+                <div id="views">50,016 views. 15 jul,2019
+                </div>
+
+                <span class="x">
+                    <i class="fas fa-share"> share</i>
+
+
+<!--
+<yt-icon class="style-scope ytd-button-renderer"><svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="style-scope yt-icon" style="pointer-events: none; display: block; width: 5%; height: 5%;">
+        <g class="style-scope yt-icon">
+            <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z" class="style-scope yt-icon"></path>
+        </g>
+    </svg></yt-icon>
+-->
+
+
+                    <p>... save</p>
+
+                </span> <span>
+
+
+                    <button class="btn"><i class="material-icons">thumb_up</i><span class="share-save-like-dislike">359 </span></button>
+                    <button class="btn"><i class="material-icons">thumb_down</i><span class="share-save-like-dislike">14</span></button>
+                </span>
+
+
+
+                <!--            </div>-->
+
+                <!--
                 <div class="youtuber-info line-seg">
                     <a href="">
                         <img src="images/download.jpeg" alt="Youtuber's avatar" width="50" height="60" />
@@ -50,24 +79,18 @@
                         <p>The Odin Project</p>
                         <button type="button" id="subscribe">Subscribe</button><span id="subscribers">799</span>
                     </div>
-
                 </div>
-
-                <div id="views">50,016 views</div>
-
+-->
+                <!--
                 <div class="expression">
                     <span>
                         <button class="btn"><span><i class="material-icons">add</i></span><span class="share-save-like-dislike">Add to</span></button>
                         <button class="btn"><span><i class="material-icons">share</i></span><span class="share-save-like-dislike">Share</span></button>
                         <button class="btn"><i class="material-icons">more_horiz</i><span class="share-save-like-dislike" id="more">More</span> </button>
                     </span>
-                    <span>
-                        <button class="btn"><i class="material-icons">thumb_up</i><span class="share-save-like-dislike">359 </span></button>
-                        <button class="btn"><i class="material-icons">thumb_down</i><span class="share-save-like-dislike">14</span></button>
-                    </span>
                 </div>
+-->
             </div>
-
             <!--Further video information-->
             <div class="content-info">
                 <h2 style="font-weight: bolder; width: auto; text-align: justify;">Published on Feb 27, 2014 </h2>
@@ -79,7 +102,6 @@
                     <span>You can find more information about that project at http://theodinproject.com.</span>
                 </p>
                 <p id="show-more">SHOW MORE</p>
-
             </div>
             <!--Number of comments section-->
             <!--Comments section-->
@@ -93,7 +115,6 @@
                 </div>
             </div>
         </section>
-
         <!--2nd container-->
         <!--Sidebar with recommended videos-->
         <aside class="side-containers">
@@ -194,7 +215,6 @@
                 <i class="material-icons" style="font-size:1rem;">
                     hourglass_full</i>
                 <span id="history">History</span>
-
             </button>
             <button class="footer-buttons"><i class="material-icons" style="font-size:1rem;">help_outline</i><span>Help</span></button>
         </div>
@@ -212,6 +232,4 @@
             <a href="" class="bottom-links-2">Test new features</a>
         </div>
     </footer>
-</body>
-
-</html>
+</body></html>
