@@ -189,7 +189,7 @@ iframe {
 .button1 {
     position: absolute;
     align-self: center;
-    padding-left: 65%;
+    padding-left: 45%;
     flex-basis: auto;
     display: inline-block;
 }
