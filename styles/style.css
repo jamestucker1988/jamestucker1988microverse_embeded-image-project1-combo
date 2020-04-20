@@ -205,10 +205,27 @@ iframe {
 
 }
 
-.button1:after {
+/* .button1::after {
     border-bottom: 1px solid blue;
+} */
+
+.button1 > div:first-child {
+    display: inline;
+    border-bottom: 0.2rem solid grey;
+    padding-bottom: 4rem;
+    /* position: absolute; */
 }
 
+.button1 > div:last-child {
+    display: inline;
+}
+
+.grey-underline {
+    border-bottom: 0.2rem solid grey;
+    width: 7rem;
+    position: static;
+    margin-left: 41rem;
+}
 
 
 span i {
