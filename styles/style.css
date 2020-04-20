@@ -73,11 +73,8 @@ a {
     padding: 0.2rem;
 }
 
-#upload-icon {
+.navbar-icons {
     color: grey;
-    margin-top: 0.6rem;
-    align-self: baseline;
-    padding-right: 0.5rem;
 }
 
 #sign-in {
