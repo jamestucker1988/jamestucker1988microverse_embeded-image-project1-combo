@@ -47,6 +47,7 @@ a {
 
 #search-icon {
     color: rgb(173, 166, 166);
+    position: absolute;
 }
 
 #search-button {
@@ -56,6 +57,7 @@ a {
     height: 2rem;
     border: 1px solid grey;
     margin-left: -5rem;
+    position: relative;
 }
 
 .search {
