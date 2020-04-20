@@ -96,7 +96,9 @@ a {
 }
 
 #side-header {
-    object-fit: cover;
+    /* object-fit: cover; */
+    position: relative;
+    right: 0.5rem;
 }
 
 .main-containers {
