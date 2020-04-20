@@ -155,39 +155,39 @@ iframe {
     flex-direction: row;
     justify-content: flex-start;
     background-color: white;
-    /*    align-items: center;*/
-    width: 100%;
     flex-wrap: wrap;
-    /*
-    border-top: 1rem solid #EEEEEE;
-    border-right: 1rem solid #EEEEEE;
-    border-bottom: 1rem solid #EEEEEE;
-    padding: 1rem 3rem 1rem 1rem;
-*/
+    width: 98.5%;
+    height: 10rem;
+
+
 }
 
-#views {
+.video-info-container > p {
+    width: 100%;
+    position: absolute;
+    align-self: center;
+    /*    padding-right: 50%;*/
+    color: grey;
 
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: space-around;    
-    /* align-self: flex-end; */
-    padding-left: 0%;
-    margin-top: 2rem;
 }
+
+.button1 {
+    position: absolute;
+    align-self: center;
+    padding-left: 65%;
+    flex-basis: auto;
+    display: inline-block;
+
+}
+
+
 
 span i {
     margin-left: 100%;
     align-self: baseline;
 }
 
-/*
-.x {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-left: auto;
-}*/
+
 
 .fas fa-share {
     padding-right: auto;
@@ -196,19 +196,18 @@ span i {
 
 
 #h3 {
-    /*
-    padding: 0.5rem;
-    font-weight: 600;
-    font-size: 1.3rem;
-*/
+
     display: block;
+    position: relative;
     align-self: flex-start;
-    margin-right: 100%;
+    right: 100%;
+
 }
 
 .no-of-views-and-btn-texts {
     color: grey;
     font-size: small;
+    display: inline;
 }
 
 .btn {
@@ -216,13 +215,15 @@ span i {
     height: 5;
     border: none;
     background-color: white;
+    display: inline-flex;
     color: grey;
 }
 
+/*
 .btn-icon {
     width: 1;
     height: 1;
-}
+}*/
 
 /*
 .youtuber-info {
