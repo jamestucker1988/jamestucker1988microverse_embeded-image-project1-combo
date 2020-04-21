@@ -34,23 +34,31 @@ a {
     background-color: white;
 }
 
-#container-1-1 {
-    padding-left: 0rem;
-    margin-top: 0.5rem;
+.container-1 {
+    display: inline-flex;
+    padding: auto 1rem;
+
+    justify-content: space-evenly;
 }
+
 
 .search-button {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    flex: 1;
 }
 
-#search-bar {
-    padding-top: 0.59rem;
+
+*/ .nav1 > form > div > input {
+    display: inline-flex padding: 0.2rem;
     color: lightgrey;
     font-size: 1rem;
-    flex: 5 1 60%;
+    flex: 1;
+    padding: 2% 5%;
 }
+
+
 
 .nav1 > form > div > button {
     color: grey;
@@ -59,24 +67,24 @@ a {
     height: 2rem;
     border: 1px solid grey;
     position: relative;
-    flex: 1 5 5%;
-    padding: 3%;
+    padding: 2% 5%;
 }
 
-#hour-glass {
+
+button > span i {
     color: rgb(173, 166, 166);
     position: absolute;
-    right: 2.5rem;
-    bottom: 0.3rem;
+    right: 2rem;
+    bottom: 0.2rem;
 }
 
-#container-1-3 {
-    display: flex;
-    padding: 0.2rem;
-}
 
 .navbar-icons {
     color: grey;
+    margin-bottom: 0.3rem;
+    margin-left: 0.2rem;
+    margin-right: 0.2rem;
+    flex: 1;
 }
 
 #sign-in {
@@ -96,7 +104,8 @@ a {
 }
 
 #side-header {
-    /* object-fit: cover; */
+
+
     position: relative;
     right: 0.5rem;
 }
