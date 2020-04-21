@@ -52,7 +52,7 @@ a {
     flex: 5 1 60%;
 }
 
-#button {
+.nav1 > form > div > button {
     color: grey;
     background-color: rgb(248, 244, 244);
     box-shadow: none;
