@@ -5,11 +5,20 @@ http://archive.vn/Bss88
 ​
 ​
 ## Preview of our webpage
+
+### Top of the webpage
 ​
 ![screenshot](images/webpage_preview_1.PNG)
+
+### Middle of the webpage
+
+![screenshot 2](images/webpage_preview_3.PNG)
+
+### Bottom of the webpage
+
+![screenshot 3](images/webpage_preview_4.PNG)
 ​
 ## Built With
-​
 - HTML5
 - CSS3
 - Google icons (https://www.w3schools.com/icons/icons_reference.asp)
@@ -43,7 +52,6 @@ Feel free to check the [issues page](https://github.com/jamestucker1988/Embeddin
 Give a ⭐️ if you like this project!
 ​
 ## Acknowledgments
-​
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
