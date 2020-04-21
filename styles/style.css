@@ -321,20 +321,14 @@ h3 {
     height: 150;
 }
 
-footer {
-    background-color: white;
-    position: relative;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    border: 1px solid rgb(236, 234, 234);
-}
+
 
 .footer-buttons {
     display: inline-flex;
     border: 1px solid grey;
     padding: 3px;
     background-color: lightgrey;
+
 }
 
 select {
@@ -379,9 +373,20 @@ select {
     flex-direction: column;
     align-items: stretch;
     height: auto;
+    background-color: white;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid rgb(236, 234, 234);
 }
 
-#footer-top {
+div > button:last-child {
+    margin-right: 50%;
+
+}
+
+.footer-top {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
