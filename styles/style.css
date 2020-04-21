@@ -381,11 +381,6 @@ select {
     border: 1px solid rgb(236, 234, 234);
 }
 
-div > button:last-child {
-    margin-right: 50%;
-
-}
-
 .footer-top {
     display: flex;
     flex-direction: row;
@@ -393,13 +388,20 @@ div > button:last-child {
     height: 2rem;
 }
 
-#footer-links {
+#help {
+    margin-right: 15rem;
+}
+
+.footer-links {
     display: block;
     padding: 0.5rem;
 }
 
 .bottom-links-1 {
     display: inline block;
+    color: rgb(41, 40, 40);
+    font-weight: bold;
+    font-size: 0.8rem;
 }
 
 .bottom-links-2 {
