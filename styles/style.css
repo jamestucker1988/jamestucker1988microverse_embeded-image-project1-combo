@@ -87,7 +87,7 @@ button > span i {
 #sign-in {
   border: 2px solid rgb(12, 124, 189);
   background-color: rgb(12, 124, 189);
-  padding: 0.5rem;
+  padding: auto 0.8rem;
   color: white;
   font-size: 0.7rem;
   font-weight: bold;
