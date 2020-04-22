@@ -21,10 +21,11 @@ http://archive.vn/Bss88
 ## Built With
 - HTML5
 - CSS3
-- Google icons (https://www.w3schools.com/icons/icons_reference.asp)
+- Google icons (https://materializecss.com/icons.html)
 ​
 ## Live Demo of our project
 ​
+<a href="https://raw.githack.com/jamestucker1988/jamestucker1988microverse_embeded-image-project1-combo/review/index.html">Live demo</a>
 ​
 ## Authors
 ​
