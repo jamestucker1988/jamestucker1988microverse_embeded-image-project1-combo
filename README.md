@@ -1,4 +1,3 @@
-
 # Project 1 - Embeddding Images and Video
 ​
 This is an assigned project where we were supposed to replicate/clone a Youtube webpage as seen in the link: 
@@ -6,17 +5,27 @@ http://archive.vn/Bss88
 ​
 ​
 ## Preview of our webpage
+
+### Top of the webpage
 ​
 ![screenshot](images/webpage_preview_1.PNG)
+
+### Middle of the webpage
+
+![screenshot 2](images/webpage_preview_3.PNG)
+
+### Bottom of the webpage
+
+![screenshot 3](images/webpage_preview_4.PNG)
 ​
 ## Built With
-​
 - HTML5
 - CSS3
-- Google icons (https://www.w3schools.com/icons/icons_reference.asp)
+- Google icons (https://materializecss.com/icons.html)
 ​
 ## Live Demo of our project
 ​
+<a href="https://raw.githack.com/jamestucker1988/jamestucker1988microverse_embeded-image-project1-combo/review/index.html">Live demo</a>
 ​
 ## Authors
 ​
@@ -25,6 +34,7 @@ http://archive.vn/Bss88
 - Github: [@chelmerrox](https://github.com/chelmerrox)
 - Twitter: [@chelmerrox](https://twitter.com/chelmerrox)
 - Linkedin: [Losalini Rokocakau](https://www.linkedin.com/in/losalini-rokocakau)
+
 ​
 👤 **Anand Kumar**
 ​
@@ -43,7 +53,6 @@ Feel free to check the [issues page](https://github.com/jamestucker1988/Embeddin
 Give a ⭐️ if you like this project!
 ​
 ## Acknowledgments
-​
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
