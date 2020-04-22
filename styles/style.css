@@ -81,18 +81,20 @@ button > span i {
     color: grey;
     margin-bottom: 0.3rem;
     margin-left: 0.2rem;
-    margin-right: 0.2rem;
+    margin-right: 0.3rem;
     flex: 1;
 }
 
 #sign {
     border: 2px solid rgb(12, 124, 189);
     background-color: rgb(12, 124, 189);
-    padding: 0.8rem;
+    padding: 0.4rem;
     color: white;
-    font-size: 0.7rem;
+    font-size: 0.45rem;
     font-weight: bold;
-    line-height: 1rem;
+    display:inline-block;
+    position: absolute;
+    left: 96%;
 }
 
 .textadjust1 {
