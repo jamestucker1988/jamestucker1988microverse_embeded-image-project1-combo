@@ -26,6 +26,29 @@ http://archive.vn/Bss88
 ## Live Demo of our project
 ​
 <a href="https://raw.githack.com/jamestucker1988/jamestucker1988microverse_embeded-image-project1-combo/review/index.html">Live demo</a>
+
+## Getting Started
+
+
+To get a local copy up and running follow the simple steps outlined below.
+
+## How To Use 🔧
+
+From your command line:
+
+1. Clone the projects' repository into your machine.
+
+```bash
+# Clone this repository
+$ git clone https://github.com/jamestucker1988/jamestucker1988microverse_embeded-image-project1-combo
+
+```
+2. Change directory/Go into the repository with the command below.
+
+```bash
+$ cd jamestucker1988microverse_embeded-image-project1-combo
+
+```
 ​
 ## Authors
 ​
