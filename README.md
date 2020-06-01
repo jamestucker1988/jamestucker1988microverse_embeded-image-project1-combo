@@ -40,7 +40,7 @@ From your command line:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/jamestucker1988/jamestucker1988microverse_embeded-image-project1-combo
+$ git clone git@github.com:jamestucker1988/jamestucker1988microverse_embeded-image-project1-combo.git
 
 ```
 2. Change directory/Go into the repository with the command below.
@@ -52,18 +52,17 @@ $ cd jamestucker1988microverse_embeded-image-project1-combo
 ​
 ## Authors
 ​
-👤 **Losalini Rokocakau**
-​
-- Github: [@chelmerrox](https://github.com/chelmerrox)
-- Twitter: [@chelmerrox](https://twitter.com/chelmerrox)
-- Linkedin: [Losalini Rokocakau](https://www.linkedin.com/in/losalini-rokocakau)
-
-​
 👤 **Anand Kumar**
 ​
 - Github: [@jamestucker1988](https://github.com/jamestucker1988)
 - Twitter: [anandku74070598](https://twitter.com/anandku74070598)
 - Linkedin: [Anand Kumar](https://linkedin.com/in/anand-kumar-9128)
+
+👤 **Losalini Rokocakau**
+​
+- Github: [@chelmerrox](https://github.com/chelmerrox)
+- Twitter: [@chelmerrox](https://twitter.com/chelmerrox)
+- Linkedin: [Losalini Rokocakau](https://www.linkedin.com/in/losalini-rokocakau)
 ​
 ## �� Contributing
 ​
